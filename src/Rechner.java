@@ -7,10 +7,15 @@ public class Rechner {
 		return c;
 	}
 	public int faku(int i) {
-		return i;
+		if(i == 1) {
+			return i;
+		}
+		else{
+			return i*faku(i-1);
+		}
 	}
 	public int sub(int i, int v) {
-		int c = 0;
+		int c = i-v;
 		return c;
 	}
 
